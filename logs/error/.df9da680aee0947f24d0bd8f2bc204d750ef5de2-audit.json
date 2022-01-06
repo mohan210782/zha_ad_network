@@ -1,0 +1,24 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 2
+    },
+    "auditLog": "/home/hinton/Documents/Hinton-AdNetwork/zha_ad_network/logs/error/.df9da680aee0947f24d0bd8f2bc204d750ef5de2-audit.json",
+    "files": [
+        {
+            "date": 1641378679397,
+            "name": "/home/hinton/Documents/Hinton-AdNetwork/zha_ad_network/logs/error/error-2022-01-05-05.log",
+            "hash": "23bf9be370e3cff5b9d93e9e787a7a7c"
+        },
+        {
+            "date": 1641380673413,
+            "name": "/home/hinton/Documents/Hinton-AdNetwork/zha_ad_network/logs/error/error-2022-01-05-06.log",
+            "hash": "1153bfe6a7682e461a35098a029d1373"
+        },
+        {
+            "date": 1641384224442,
+            "name": "/home/hinton/Documents/Hinton-AdNetwork/zha_ad_network/logs/error/error-2022-01-05-07.log",
+            "hash": "cd72c39b6b8b1768ffda068587c2b077"
+        }
+    ]
+}

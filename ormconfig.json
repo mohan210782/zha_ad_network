@@ -1,0 +1,35 @@
+{
+  "type": "postgres",
+  "host": "127.0.0.1",
+  "port": 5432,
+  "username": "postgres",
+  "password": "test123*",
+  "database": "zhanetwork",
+  "cache": {
+    "duration": 30000
+  },
+  "logging": [
+    "error",
+    "warn",
+    "log"
+  ],
+  "logger": "file",
+  "maxQueryExecutionTime": 1000,
+  "entities": [
+    "src/**/*.entity{.ts,.js}"
+  ],
+  "migrations": [
+    "src/migrations/**/*{.ts,.js}"
+  ],
+  "subscribers": [
+    "src/subscriber/**/*.ts"
+  ],
+  "cli": {
+    "entitiesDir": "src/entities",
+    "migrationsDir": "src/migrations",
+    "subscribersDir": "src/subscriber"
+  },
+  "synchronize": true,
+  "migrationsRun": false,
+  "ssl": false
+}
